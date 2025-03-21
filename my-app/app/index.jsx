@@ -3,7 +3,8 @@ import React from 'react'
 import { useRouter } from 'expo-router'
 
 const index = () => {
-  const router =useRouter();
+  
+  const router = useRouter();
   return (
     <View>
       <Text>index</Text>
