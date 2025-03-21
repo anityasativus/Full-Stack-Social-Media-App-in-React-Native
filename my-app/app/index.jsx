@@ -5,8 +5,9 @@ import { useRouter } from 'expo-router'
 const index = () => {
 
   const router = useRouter();
-  
+
   return (
+    
     <View>
       <Text>index</Text>
       <Button title="welcome" onPress={()=> router.push('welcome')}  />
