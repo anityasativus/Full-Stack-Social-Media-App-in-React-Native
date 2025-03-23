@@ -9,7 +9,7 @@ const index = () => {
   return (
     
     <View>
-      <Text>index </Text>
+      <Text> index </Text>
       <Button title= "welcome" onPress={()=> router.push('welcome')}  />
     </View>
   )
